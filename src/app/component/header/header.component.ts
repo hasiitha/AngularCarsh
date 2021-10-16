@@ -11,8 +11,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  onBtnClick() {
+  toggleAddTask() {
     console.log('Add');
   }
 }
