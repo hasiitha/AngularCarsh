@@ -55,6 +55,8 @@ in here we can see that template url is connected to our html file and style whi
 
 You can get the tittle dynamically in the html component using <h1>{{title}}</h1>
 */
+
+also add the global styles to whole project inside the style.css and it can be download from the --> https://github.com/bradtraversy/angular-crash-2021/blob/main/src/styles.css
  
  
 
