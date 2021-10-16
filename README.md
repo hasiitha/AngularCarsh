@@ -25,3 +25,40 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Commit number 1 : -  
+The Application is installed angular-cli  in the PC globally using the
+## npm install -g @angular-cli
+ Initialize a new angular project using 
+ ## ng new my-app(my-app is the for the app dont type my app).
+ Then your folder structure will be created 
+ 
+ Move to the app folder and app.component.html and delete all the auto generated code.
+ now just add to <h1></h1> tags and write hello inside them ->you can see that that hello will be published in your browser(localhost 4200 or what ever the port which runs).
+ now just go to the app.component.ts
+ /*
+ import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'my-app';
+  //also you can give a type to your variable like this ->  title :string  = 'my-app';
+}
+in here we can see that template url is connected to our html file and style which are specific to this components will be attached too.
+
+You can get the tittle dynamically in the html component using <h1>{{title}}</h1>
+*/
+
+also add the global styles to whole project inside the style.css and it can be download from the --> https://github.com/bradtraversy/angular-crash-2021/blob/main/src/styles.css
+ 
+ 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
